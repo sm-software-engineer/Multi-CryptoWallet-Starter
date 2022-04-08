@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>netcore_backend</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NBitcoin" Version="5.0.83" />
+    <PackageReference Include="Nethereum" Version="0.0.2.60" />
+    <PackageReference Include="Nethereum.Geth" Version="3.8.0" />
+    <PackageReference Include="Nethereum.HdWallet" Version="3.8.0" />
+    <PackageReference Include="Nethereum.Signer" Version="3.8.0" />
+    <PackageReference Include="Nethereum.Web3" Version="3.8.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_alert" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#f43331;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="alert-triangle" transform="translate(1.946 4.895)">
+        <path id="Path_8045" d="M20 4.929L2.118 34.776a4.222 4.222 0 0 0 3.609 6.332h35.757a4.222 4.222 0 0 0 3.609-6.332L27.215 4.929a4.222 4.222 0 0 0-7.219 0z" class="cls-2" transform="translate(-1.552 -2.897)"/>
+        <path id="Line_78" d="M0 0L0 10.186" class="cls-2" transform="translate(22.054 13.605)"/>
+        <path id="Line_79" d="M0 0L0.01 0" class="cls-2" transform="translate(22.059 29.768)"/>
+    </g>
+</svg>

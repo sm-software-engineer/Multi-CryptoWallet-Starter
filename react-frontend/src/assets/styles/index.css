@@ -1,0 +1,266 @@
+* {
+  font-family: 'Heebo';
+}
+
+
+body {
+  margin: 0;
+  background-color: #f2f3f5;
+}
+
+.container-fluid {
+  padding: 0;  
+}
+
+
+/* Component */
+/* Header: Rectangle-2355 */
+.header {  
+  height: 66px;  
+  background-color: #014ba2;
+}
+
+.logo {
+  width: 174px;
+  height: 48px;
+  margin: 9px auto 9px auto;
+}
+
+.icon-menu {
+  width: 32px;
+  height: 32px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+/* main */
+/* responsive layout */
+@media (min-width: 968px) {
+  .main {
+    width: 804px;
+    /* height: 982px; */
+    margin: 30px auto 30px auto;       
+    background-color: #ffffff;
+    /* padding-top: 109px; */
+  }
+}
+
+@media (max-width: 967px) {
+  .main {
+    width: 80%;
+    /* height: 982px; */
+    margin: 30px auto 30px auto;    
+    background-color: #ffffff;
+    /* padding-top: 109px; */
+  }
+}
+
+.img-cryptos {
+    width: 368px;
+    height: 292px;
+    margin-top: 109px;    
+}
+
+.img-narrow-mark {
+  width: 32px;
+  height: 32px
+}
+
+.img-icon-back {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-top: 16px;
+  margin-left: 16px; 
+}
+
+.img-icon-alert {
+  width: 48px;
+  height: 48px;
+  float: left; 
+  margin-right: 16px; 
+}
+.page-title {
+  font-size: 36px;  
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+}
+
+
+
+.legal-info-title {
+  margin-top:109px;
+}
+
+.introduction {
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b1b2b4;
+}
+
+.create-wallet-btn {
+  margin-top: 21px;
+  margin-bottom: 24px;
+}
+
+.already-have-wallet {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #014ba2;
+}
+
+.custom-carousel-indicators {
+  margin-top: 52px;
+  list-style: none;
+  margin-left: -16px;
+  margin-bottom: 30px;
+}
+
+.custom-carousel-indicators li.active {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin: 0 13px 0 0;
+  cursor: pointer;  
+  background-color: #014ba2;  
+  border-radius: 10px;
+}
+
+.custom-carousel-indicators li.un-active {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin: 0 13px 0 0;
+  cursor: pointer;  
+  background-color: #aab3be;  
+  border-radius: 10px;
+}
+
+/* bootstrap modify */
+.form-check-input:checked {
+  background-color: #1ec788;
+  border-color: #1ec788;
+}
+
+.form-check-input {
+  height: 25px;
+   width: 25px;
+   margin-right: 22px;
+}
+
+.form-check-inline span {  
+  display: inline-block;
+}
+
+
+
+/* Seed phrases */
+.container-show-seed-phrases {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* margin: 21px 213px 28px 213px; */
+}
+
+
+/* Seed phrases */
+.container-confirm-seed-phrases {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  /* margin: 21px 213px 28px 213px; */
+}
+
+
+
+.each-seed-phrases-confirm {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  width: 118px;
+  height: 48px;
+  margin: 6px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: move;
+  border-radius: 5px;
+  border: dotted 2px #b1b2b4;
+}
+
+.each-seed-phrases {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  width: 118px;
+  height: 48px;
+  margin: 6px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: move;
+}
+
+.copy-button {
+  width: 146px;
+  height: 48px;
+  margin: 28px auto 50px auto;
+  padding: 9px 36px 7px;
+  border-radius: 5px;
+  border-color: #014ba2;
+  border: solid 1px #014ba2;  
+  color: #014ba2;
+  display: block;
+
+}
+
+.seed-phrase-warning {
+  width: 414px;
+  height: 80px;
+  margin: 0px auto 23px auto;
+  padding: 15px 11px 14px 16px;
+  background-color: rgba(244, 51, 49, 0.1);
+}
+
+.seed-phrase-warning span {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f43331;
+}
+
+.each-seed-phrases span {
+  margin-right: 11px;
+  color: #e3e3e4;
+  float: left;
+}
+
+.user-private-info {
+  height: 60px;
+  font-size: 24px;
+  border: 1px solid #014ba2;  
+}
+

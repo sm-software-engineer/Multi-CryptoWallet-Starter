@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="icon_back" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="arrow-left" transform="translate(4 4)">
+        <path id="Line_60" d="M14 0L0 0" class="cls-2" transform="translate(5 12)"/>
+        <path id="Path_7978" d="M12 19l-7-7 7-7" class="cls-2"/>
+    </g>
+</svg>
